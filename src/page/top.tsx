@@ -58,7 +58,7 @@ function Mainber(){
             <div className="topmainbar">
                 <div className="textback">
                     <h2>本ページへようこそ！！</h2>
-                    <br/><br/><br/><br/><br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/>
                 </div>
                 <iframe className="disgetbot" src="https://discord.com/widget?id=838937935822585928&theme=dark" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </div>
