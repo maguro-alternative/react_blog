@@ -3,6 +3,7 @@ import React from 'react'; //Reactを読み込んでいる
 import { BrowserRouter, Route ,Routes } from 'react-router-dom';
 import Page1 from './page/page1'; //作成したpage1.jsを読み込んでいる
 import Page2 from './page/page2';
+import Page3 from './page/page3';
 import Toppage from './page/top';
 import { Helmet } from "react-helmet"
  
@@ -14,6 +15,7 @@ class App extends React.Component {
           <Route path={"/"} element={<Toppage/>}/>
           <Route path={"/page1"} element={<Page1/>}/>
           <Route path={"/page2"} element={<Page2/>}/>
+          <Route path={"/page3"} element={<Page3/>}/>
         </Routes>
       </BrowserRouter>
     );

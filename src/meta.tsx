@@ -13,7 +13,6 @@ function Meta(props:any){
         <Helmet>
             <meta name="viewport" content="width=640" />
             <link rel="icon" href={props.pic}/>
-            <meta className="viewport" content="width=device-width,initial-scale=1.0"/>
             <title>{props.name}</title>
             <meta property="og:title" content={props.name}/>
             <meta property="og:url" content="https://sigumataityouda.netlify.app/"/>

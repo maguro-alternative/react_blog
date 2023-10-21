@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
+import Meta from "./meta"
 
 //createRoot(document.querySelector("#content")).render(<App />);
 
